@@ -30,8 +30,8 @@ class BankAccount
     "Your Balance is $#{balance}."
   end
   
-  def closed_status   
-     
+  def valid?   
+    
   end 
 
 end
