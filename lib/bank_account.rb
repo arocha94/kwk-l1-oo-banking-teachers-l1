@@ -22,8 +22,8 @@ class BankAccount
     @status
   end 
   
-  def deposit(balance)
-    @self.deposit += balance
+  def deposit(amount)
+    @balance += amount
   end 
 
     
