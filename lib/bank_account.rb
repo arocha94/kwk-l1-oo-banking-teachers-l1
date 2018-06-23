@@ -31,7 +31,7 @@ class BankAccount
   end
   
   def valid?   
-    @valid
+    status = "open" 
   end 
 
 end
