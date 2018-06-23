@@ -6,8 +6,6 @@ class BankAccount
     @status = "open"
   end 
   
- 
-  
   def name 
     @name
   end 
@@ -23,5 +21,8 @@ class BankAccount
   def status
     @status
   end 
+  
+  def deposit_money
+    
   
 end
