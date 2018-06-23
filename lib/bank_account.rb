@@ -28,6 +28,8 @@ class BankAccount
   
   def display_balance
     "Your Balance is $#{balance}."
-  end 
+  end
+  
+  
 
 end
