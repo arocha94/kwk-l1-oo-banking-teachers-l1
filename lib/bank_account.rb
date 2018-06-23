@@ -31,7 +31,7 @@ class BankAccount
   end
   
   def closed_status 
-    status = "closed" && balance == 0 
+    status == "closed" && balance == 0 
   end 
 
 end
