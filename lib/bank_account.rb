@@ -30,8 +30,8 @@ class BankAccount
     "Your Balance is $#{balance}."
   end
   
-  def status 
-    @status  
+  def closed_status   
+     
   end 
 
 end
