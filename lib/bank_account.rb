@@ -10,10 +10,6 @@ class BankAccount
     @name
   end 
   
-  def balance=(balance)
-    @balance
-  end 
-  
   def balance
     @balance
   end 
