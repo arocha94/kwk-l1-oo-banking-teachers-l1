@@ -1,4 +1,7 @@
 class BankAccount
-  # code here
+  
+  def initialize
+    
+  end 
   
 end
