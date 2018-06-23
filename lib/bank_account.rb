@@ -2,7 +2,7 @@ class BankAccount
   
   def initialize(name)
     @name = name
-    @balance = balance
+    @balance = 1000
   end 
   
   def name=(name)
