@@ -17,10 +17,7 @@ class BankAccount
   def balance
     @balance
   end 
-  
-  def status
-    @status
-  end 
+
   
   def deposit(amount)
     @balance += amount
