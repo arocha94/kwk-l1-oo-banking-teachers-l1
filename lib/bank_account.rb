@@ -5,14 +5,7 @@ class BankAccount
     @balance = 1000
     @status = "open"
   end 
-  
-  def name=(name)
-    @name = name 
-  end 
-  
-  def name 
-    @name
-  end 
+
   
   def balance=(balance)
     @balance
