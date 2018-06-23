@@ -30,6 +30,7 @@ class BankAccount
     "Your Balance is $#{balance}."
   end
   
-  
+  def status 
+  end 
 
 end
