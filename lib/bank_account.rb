@@ -2,6 +2,7 @@ class BankAccount
   
   def initialize(name)
     @name = name
+    @balance = balance
   end 
   
   def name=(name)
@@ -10,6 +11,10 @@ class BankAccount
   
   def name 
     @name
+  end 
+  
+  def balance=(balance)
+    @balance
   end 
   
   def balance
