@@ -3,6 +3,7 @@ class BankAccount
   def initialize(name)
     @name = name
     @balance = 1000
+    @status = open
   end 
   
   def name=(name)
@@ -19,6 +20,14 @@ class BankAccount
   
   def balance
     @balance
+  end 
+  
+  def status=(status)
+    @status
+  end 
+  
+  def status
+    @status
   end 
   
 end
