@@ -23,7 +23,7 @@ class BankAccount
   end 
   
   def deposit(balance)
-    @deposit += balance
+    @self.deposit += balance
   end 
 
     
