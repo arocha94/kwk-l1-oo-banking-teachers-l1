@@ -10,6 +10,10 @@ class BankAccount
     @name
   end 
   
+  def balance=(balance)
+    @balance
+  end 
+  
   def balance
     @balance
   end 
@@ -21,6 +25,9 @@ class BankAccount
   def deposit(amount)
     @balance += amount
   end 
-
+  
+  def display_balance
     
+  end 
+
 end
