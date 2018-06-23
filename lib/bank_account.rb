@@ -22,7 +22,12 @@ class BankAccount
     @status
   end 
   
-  def deposit_money
-    
+  def deposit(amount)
+    @deposit = 1000
+  end 
   
+  def deposit
+    @deposit
+  end 
+    
 end
